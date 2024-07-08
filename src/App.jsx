@@ -1,11 +1,9 @@
-import PostsList from "./features/posts/PostsList";
-import AddPostForm from "./features/posts/AddPostForm";
+import Board from "./features/board/Board";
 
 function App() {
   return (
     <main className="App">
-      <AddPostForm />
-      <PostsList />
+      <Board />
     </main>
   );
 }
