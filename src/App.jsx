@@ -1,9 +1,9 @@
-import Board from "./features/board/Board";
+import ProductsList from "./features/products/ProductsList.jsx";
 
 function App() {
   return (
     <main className="App">
-      <Board />
+      <ProductsList />
     </main>
   );
 }
